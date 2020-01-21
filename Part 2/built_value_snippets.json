@@ -1,0 +1,25 @@
+{
+    "Built Value": {
+        "prefix": "bv",
+        "body": [
+            "abstract class ${1:name} implements Built<${1:name}, ${1:name}Builder> {",
+            "  ${2:// TODO: add the fields}",
+            "",
+            "  ${1:name}._();",
+            "  factory ${1:name}([void Function(${1}$Builder) updates]) = _$${1:name};",
+            "}"
+        ],
+        "description": "Built Value"
+    },
+    "Built Value Simple Header": {
+        "prefix": "bvsh",
+        "body": [
+            "import 'package:built_value/built_value.dart';",
+            "",
+            "part '$TM_FILENAME_BASE.g.dart';",
+            "",
+            "${1:// TODO: create the built value}"
+        ],
+        "description": "Built Value Simple Header"
+    }
+}
