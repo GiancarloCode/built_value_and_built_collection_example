@@ -1,0 +1,14 @@
+name: built_value_example
+description: An example of how to use built_value and built_collection
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  built_value: ^7.0.4
+  built_collection: ^4.3.2
+  logger: ^0.8.3
+
+dev_dependencies:
+  build_runner: ^1.7.1
+  built_value_generator: ^7.0.4    
